@@ -1,0 +1,17 @@
+name: streamlit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - wandb
+    - optuna
+    - numpy
+    - tqdm
+    - pillow
+    - einops
+    - matplotlib
+    - altair
+    - streamlit
